@@ -1,0 +1,4 @@
+{"id":"15666","host":"server","type":"T","state":"STARTED","timestamp":123456}
+{"id":"15666","host":"server","type":"T","state":"FINISHED","timestamp":123458}
+{"id":"15668","host":"server","type":"T","state":"STARTED","timestamp":123456}
+{"id":"15668","host":"server","type":"T","state":"FINISHED","timestamp":123458}
