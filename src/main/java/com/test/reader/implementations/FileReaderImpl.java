@@ -10,6 +10,7 @@ import java.util.concurrent.BlockingQueue;
 
 import org.apache.log4j.Logger;
 
+import com.test.EventQueue;
 import com.test.models.FileLine;
 import com.test.reader.interfaces.FileReader;
 import com.test.utils.ApplicationException;
@@ -25,7 +26,7 @@ public class FileReaderImpl implements FileReader{
 		return isCompleted;
 	}
 	
-	public void readFile(String fileLocation,BlockingQueue<FileLine> queue) throws IOException{
+	public void readFile(String fileLocation,EventQueue eventQueue ) throws IOException{
 		
 		LOGGER.debug("About to read the file  : "+ fileLocation);
 		
@@ -36,26 +37,26 @@ public class FileReaderImpl implements FileReader{
     		.lines()
     		.parallel()
             .map(line -> LineParser.parse(line))
-            .forEach(fileLine -> addToQueue(fileLine,queue));
+            .forEach(fileLine -> addToQueue(fileLine,eventQueue));
 		          
-		     isCompleted = true;
+		     eventQueue.setCompleted(true);
 		     LOGGER.info("File reading completed ");
 		     bufferedReader.close();
 		} catch (FileNotFoundException e) {
 			if(bufferedReader != null){
 				bufferedReader.close();
 			}
-			isCompleted = true;
+			eventQueue.setCompleted(true);
 			LOGGER.error("File reading failed ", e);
 			throw new ApplicationException("File reading Failed", e);
 		}
 		
 	}
 
-	private void addToQueue(FileLine fileLine, BlockingQueue<FileLine> queue) {
+	private void addToQueue(FileLine fileLine, EventQueue eventQueue) {
 		
 		try {
-			queue.put(fileLine);
+			eventQueue.addToLast(fileLine);
 		} catch (InterruptedException e) {
 			LOGGER.error("Adding current Line to queue Failed ", e);
 			throw new ApplicationException("Enqueue operation failed ", e);

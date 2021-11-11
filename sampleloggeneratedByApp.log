@@ -1,0 +1,75 @@
+2021-11-11 10:58:12,765 INFO  [PersistenceMgrImpl] Driver Loaded Successfully.
+2021-11-11 10:58:13,810 DEBUG [FileReaderImpl] About to read the file  : C:/STSWorkSpace/build-analyser/target/logFile.txt
+2021-11-11 10:58:13,810 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 10:58:13,997 DEBUG [TaskProcessor] read line is  FileLine [id="15666", state="STARTED", type="T", host="server", timestamp=123456]
+2021-11-11 10:58:13,997 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 10:58:13,997 DEBUG [TaskProcessor] read line is  FileLine [id="15666", state="FINISHED", type="T", host="server", timestamp=123458]
+2021-11-11 10:58:13,997 DEBUG [TaskProcessor] Adding EventDto for insert EventDto [id="15666", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2]
+2021-11-11 10:58:13,997 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 10:58:13,997 DEBUG [TaskProcessor] read line is  FileLine [id="15668", state="STARTED", type="T", host="server", timestamp=123456]
+2021-11-11 10:58:13,997 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 10:58:14,013 DEBUG [TaskProcessor] read line is  FileLine [id="15668", state="FINISHED", type="T", host="server", timestamp=123458]
+2021-11-11 10:58:14,013 DEBUG [TaskProcessor] Adding EventDto for insert EventDto [id="15668", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2]
+2021-11-11 10:58:14,013 INFO  [FileReaderImpl] File reading completed 
+2021-11-11 10:58:14,013 INFO  [TaskProcessor] Calling Persistence to insert event details 
+2021-11-11 10:58:14,013 DEBUG [PersistenceMgrImpl]  going to commit  [EventDto [id="15666", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2], EventDto [id="15668", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2]]
+2021-11-11 10:58:14,013 INFO  [PersistenceMgrImpl] Driver Loaded Successfully.
+2021-11-11 10:58:14,044 DEBUG [PersistenceMgrImpl] updateCounts [1, 1]
+2021-11-11 10:58:14,185 INFO  [TaskProcessor] UPDATING BUILD ANALYSIS TO DATABASE COMPLETED 
+2021-11-11 10:59:18,721 INFO  [PersistenceMgrImpl] Driver Loaded Successfully.
+2021-11-11 10:59:19,142 INFO  [PersistenceMgrImpl] Table alreday Exists not created again 
+2021-11-11 10:59:19,142 DEBUG [FileReaderImpl] About to read the file  : C:/STSWorkSpace/build-analyser/target/logFile.txt
+2021-11-11 10:59:19,142 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 10:59:19,282 DEBUG [TaskProcessor] read line is  FileLine [id="15666", state="STARTED", type="T", host="server", timestamp=123456]
+2021-11-11 10:59:19,282 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 10:59:19,298 DEBUG [TaskProcessor] read line is  FileLine [id="15666", state="FINISHED", type="T", host="server", timestamp=123458]
+2021-11-11 10:59:19,298 DEBUG [TaskProcessor] Adding EventDto for insert EventDto [id="15666", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2]
+2021-11-11 10:59:19,298 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 10:59:19,329 DEBUG [TaskProcessor] read line is  FileLine [id="15668", state="STARTED", type="T", host="server", timestamp=123456]
+2021-11-11 10:59:19,329 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 10:59:19,360 INFO  [FileReaderImpl] File reading completed 
+2021-11-11 10:59:19,360 DEBUG [TaskProcessor] read line is  FileLine [id="15668", state="FINISHED", type="T", host="server", timestamp=123458]
+2021-11-11 10:59:19,360 DEBUG [TaskProcessor] Adding EventDto for insert EventDto [id="15668", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2]
+2021-11-11 10:59:19,360 INFO  [TaskProcessor] Calling Persistence to insert event details 
+2021-11-11 10:59:19,360 DEBUG [PersistenceMgrImpl]  going to commit  [EventDto [id="15666", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2], EventDto [id="15668", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2]]
+2021-11-11 10:59:19,360 INFO  [PersistenceMgrImpl] Driver Loaded Successfully.
+2021-11-11 10:59:19,392 DEBUG [PersistenceMgrImpl] updateCounts [1, 1]
+2021-11-11 10:59:19,516 INFO  [TaskProcessor] UPDATING BUILD ANALYSIS TO DATABASE COMPLETED 
+2021-11-11 10:59:29,928 INFO  [PersistenceMgrImpl] Driver Loaded Successfully.
+2021-11-11 10:59:30,302 INFO  [PersistenceMgrImpl] Table alreday Exists not created again 
+2021-11-11 10:59:30,302 DEBUG [FileReaderImpl] About to read the file  : C:/STSWorkSpace/build-analyser/target/logFile.txt
+2021-11-11 10:59:30,302 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 10:59:30,458 DEBUG [TaskProcessor] read line is  FileLine [id="15666", state="STARTED", type="T", host="server", timestamp=123456]
+2021-11-11 10:59:30,458 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 10:59:30,489 DEBUG [TaskProcessor] read line is  FileLine [id="15666", state="FINISHED", type="T", host="server", timestamp=123458]
+2021-11-11 10:59:30,489 DEBUG [TaskProcessor] Adding EventDto for insert EventDto [id="15666", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2]
+2021-11-11 10:59:30,489 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 10:59:30,520 DEBUG [TaskProcessor] read line is  FileLine [id="15668", state="STARTED", type="T", host="server", timestamp=123456]
+2021-11-11 10:59:30,520 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 10:59:30,552 INFO  [FileReaderImpl] File reading completed 
+2021-11-11 10:59:30,552 DEBUG [TaskProcessor] read line is  FileLine [id="15668", state="FINISHED", type="T", host="server", timestamp=123458]
+2021-11-11 10:59:30,552 DEBUG [TaskProcessor] Adding EventDto for insert EventDto [id="15668", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2]
+2021-11-11 10:59:30,552 INFO  [TaskProcessor] Calling Persistence to insert event details 
+2021-11-11 10:59:30,552 DEBUG [PersistenceMgrImpl]  going to commit  [EventDto [id="15666", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2], EventDto [id="15668", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2]]
+2021-11-11 10:59:30,552 INFO  [PersistenceMgrImpl] Driver Loaded Successfully.
+2021-11-11 10:59:30,567 DEBUG [PersistenceMgrImpl] updateCounts [1, 1]
+2021-11-11 10:59:30,708 INFO  [TaskProcessor] UPDATING BUILD ANALYSIS TO DATABASE COMPLETED 
+2021-11-11 11:04:04,241 INFO  [PersistenceMgrImpl] Driver Loaded Successfully.
+2021-11-11 11:04:04,615 INFO  [PersistenceMgrImpl] Table alreday Exists not created again 
+2021-11-11 11:04:04,615 DEBUG [FileReaderImpl] About to read the file  : C:/STSWorkSpace/build-analyser/target/logFile.txt
+2021-11-11 11:04:04,615 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 11:04:04,756 DEBUG [TaskProcessor] read line is  FileLine [id="15666", state="STARTED", type="T", host="server", timestamp=123456]
+2021-11-11 11:04:04,756 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 11:04:04,771 DEBUG [TaskProcessor] read line is  FileLine [id="15666", state="FINISHED", type="T", host="server", timestamp=123458]
+2021-11-11 11:04:04,771 DEBUG [TaskProcessor] Adding EventDto for insert EventDto [id="15666", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2]
+2021-11-11 11:04:04,787 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 11:04:04,802 DEBUG [TaskProcessor] read line is  FileLine [id="15668", state="STARTED", type="T", host="server", timestamp=123456]
+2021-11-11 11:04:04,802 INFO  [TaskProcessor] Picking Next Line from Queue  
+2021-11-11 11:04:04,834 INFO  [FileReaderImpl] File reading completed 
+2021-11-11 11:04:04,834 DEBUG [TaskProcessor] read line is  FileLine [id="15668", state="FINISHED", type="T", host="server", timestamp=123458]
+2021-11-11 11:04:04,834 DEBUG [TaskProcessor] Adding EventDto for insert EventDto [id="15668", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2]
+2021-11-11 11:04:04,834 INFO  [TaskProcessor] Calling Persistence to insert event details 
+2021-11-11 11:04:04,834 DEBUG [PersistenceMgrImpl]  going to commit  [EventDto [id="15666", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2], EventDto [id="15668", type="T", host="server", startTimeStamp=123458, endTimeStamp=123456, duration=-2]]
+2021-11-11 11:04:04,834 INFO  [PersistenceMgrImpl] Driver Loaded Successfully.
+2021-11-11 11:04:04,865 DEBUG [PersistenceMgrImpl] updateCounts [1, 1]
+2021-11-11 11:04:04,990 INFO  [TaskProcessor] UPDATING BUILD ANALYSIS TO DATABASE COMPLETED 

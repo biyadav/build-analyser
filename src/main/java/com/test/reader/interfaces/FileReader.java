@@ -1,11 +1,9 @@
 package com.test.reader.interfaces;
 
 import java.io.IOException;
-import java.util.concurrent.BlockingQueue;
-
-import com.test.models.FileLine;
+import com.test.EventQueue;
 
 public interface FileReader {
 
-	public void readFile(String fileLocation,BlockingQueue<FileLine> queue) throws IOException;
+	public void readFile(String fileLocation,EventQueue eventQueue) throws IOException;
 }

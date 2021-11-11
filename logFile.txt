@@ -2,3 +2,7 @@
 {"id":"15666","host":"server","type":"T","state":"FINISHED","timestamp":123458}
 {"id":"15668","host":"server","type":"T","state":"STARTED","timestamp":123456}
 {"id":"15668","host":"server","type":"T","state":"FINISHED","timestamp":123458}
+{"id":"15690","host":"server","type":"Y","state":"STARTED","timestamp":1234568}
+{"id":"15689","host":"server","type":"T","state":"STARTED","timestamp":123459}
+{"id":"15690","host":"server","type":"Y","state":"FINISHED","timestamp":1234563}
+{"id":"15689","host":"server","type":"T","state":"FINISHED","timestamp":123452}
